@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/tailwind.css" />
+    <title>Congrats!</title>
+  </head>
+  <body class="bg-gray-100">
+    <div
+      class="mx-auto flex h-screen max-w-2xl flex-col items-center justify-center"
+    >
+      <div id="end" class="flex w-screen flex-col bg-gray-500 px-4 text-center">
+        <h1>0</h1>
+        <form class="" action="#">
+          <input
+            class=""
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Username"
+          />
+          <button
+            class="submit block"
+            id="saveScoreBtn"
+            onclick="saveHighScore(event)"
+          >
+            Save
+          </button>
+        </form>
+        <a href="/game.html">Play Again</a>
+        <a href="/">Go Home</a>
+      </div>
+    </div>
+
+    <script src="game.js"></script>
+  </body>
+</html>
